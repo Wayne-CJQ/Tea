@@ -1,0 +1,210 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body, a{
+  background-color: black;
+  color: seashell;
+  font-family: Helvetica;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+/* Header Section Style: Start */
+/* //////////////////////////////////////////////////////////////////////////// */
+.header{
+  display: flex;
+  height: 69px;
+  position: fixed;
+  width: 100%;
+  border-bottom: 1px seashell solid;
+  z-index: 3;
+}
+
+.logo{
+  background-color: black;
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img{
+  height: 50px;
+}
+
+.navigation{
+  display: flex;
+  background-color: black;
+  align-items: center;
+}
+
+.navigation a{
+  padding-right: 20px;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Header Section Style: End */
+
+
+
+
+/* Content Section One Style: Start */
+/* //////////////////////////////////////////////////////////////////////////// */
+.content_one{
+  width: 1200px;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/img-mission-background.jpg");
+  margin: 0 auto;
+  position: relative;
+  top: 45px;
+}
+
+.words_one{
+  text-align: center;
+  width: 100%;
+  background-color: black;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.words_one h2{
+  padding: 10px;
+}
+
+.words_one h4{
+  padding: 10px;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Content Section One Style: End */
+
+
+
+
+/* Content Section Two Style: Start */
+/* //////////////////////////////////////////////////////////////////////////// */
+.content_two{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.words_two{
+  text-align: center;
+  width: 100%;
+}
+
+.words_two h2{
+  padding-bottom: 20px;
+}
+
+.words_two h4{
+  padding-bottom: 20px;
+}
+
+.squares_two{
+  width: 1200px;
+  height: auto;
+  padding: 0 75px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.square_two{
+  width: 300px;
+  height: 250px;
+  margin: 0 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.content_two img{
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Content Section Two Style: End */
+
+
+
+
+/* Address Section Style: Start */
+/* //////////////////////////////////////////////////////////////////////////// */
+.address{
+  width: 1200px;
+  height: 560px;
+  margin: 0 auto;
+  opacity: 1;
+  background-image: url("../images/img-locations-background.jpg");
+  margin-top: 50px;
+}
+
+.location_address{
+  width: 100%;
+  height: 85px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-color: transparent;
+}
+
+.squares_address{
+  width: 100%;
+  height: 300px;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+}
+
+.square_address{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-around;
+  background-color: black;
+  margin: 0 20px;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Address Section Style: End */
+
+
+
+
+/* Information Section Style: Start */
+/* //////////////////////////////////////////////////////////////////////////// */
+.info{
+  width: 100%;
+  height: auto;
+  background-color: black;
+}
+
+.words_info{
+  width: 100%;
+  height: 200px;
+  text-align: center;
+}
+
+.words_info h2{
+  padding: 10px 0;
+}
+
+.words_info h5{
+  padding: 20px 0;
+}
+/* //////////////////////////////////////////////////////////////////////////// */
+/* Information Section Style: End */
